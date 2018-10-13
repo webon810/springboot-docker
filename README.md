@@ -17,10 +17,6 @@ $ mvn clean install
 //rename the jar file as sbootdockerdemo.jar which is available for docker to run later.
 
 - Step2: Create a DockerFile
-FROM java:8
-EXPOSE 8080
-ADD /target/sbootdockerdemo.jar sbootdockerdemo.jar
-ENTRYPOINT ["java", "-jar", “sbootdockerdemo.jar"]
 
 - Step3: Run Docker command to create the docker image and load it up to container.
 $ docker build -f DockerFile -t sbootdockerdemo .
