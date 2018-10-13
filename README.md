@@ -7,9 +7,8 @@ Demo of springboot app run by Docker
 ## Stack
 - Docker
 - Java
-- Spring Boot
-- NGINX
-- Maven
+- Spring-boot
+
 
 ##Steps
 - Step1: build the jar file under target folder
