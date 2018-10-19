@@ -24,7 +24,8 @@ $ docker build -f DockerFile -t sbootdockerdemo .
 $ docker images 
 
 ## Run
+'''
 $ docker run -p 8080:8080 sbootdockerdemo 
-
+'''
 //run the app on browser
 http://localhost:8080/index
